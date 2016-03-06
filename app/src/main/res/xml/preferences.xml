@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Ayarlar">
+
+        <EditTextPreference
+            android:key="apikey_preference"
+            android:title="API KEY"
+            android:summary="API KEY değerini giriniz."/>
+
+        <EditTextPreference
+            android:key="apisecret_preference"
+            android:title="API SECRET"
+            android:summary="API SECRET değerini giriniz."/>
+    </PreferenceCategory>
+</PreferenceScreen>
